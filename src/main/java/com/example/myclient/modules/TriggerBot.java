@@ -3,8 +3,8 @@ package com.example.myclient.modules;
 import com.example.myclient.settings.BoolSetting;
 import com.example.myclient.settings.NumberSetting;
 import net.minecraft.entity.Entity;
-import net.minecraft.hit.EntityHitResult;
-import net.minecraft.hit.HitResult;
+import net.minecraft.util.hit.EntityHitResult;
+import net.minecraft.util.hit.HitResult;
 import net.minecraft.util.Hand;
 import org.lwjgl.glfw.GLFW;
 
