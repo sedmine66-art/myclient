@@ -1,8 +1,8 @@
 package com.example.myclient.modules;
 
 import net.minecraft.block.BlockState;
-import net.minecraft.hit.BlockHitResult;
-import net.minecraft.hit.HitResult;
+import net.minecraft.util.hit.BlockHitResult;
+import net.minecraft.util.hit.HitResult;
 import org.lwjgl.glfw.GLFW;
 
 public class AutoTool extends Module {
