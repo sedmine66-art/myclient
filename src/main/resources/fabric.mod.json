@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "id": "myclient",
+  "version": "${version}",
+  "name": "MyClient",
+  "description": "Client mod skeleton with modules, HUD and ClickGUI",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["com.example.myclient.MyClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.4",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
